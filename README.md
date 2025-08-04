@@ -9,13 +9,13 @@ This project tracks live financial KPIs for UnitedHealth Group (UNH) using a ful
 - Windows Task Scheduler: automates daily refresh
 - Power BI Dashboard: visualizes live KPIs
 
-# Tools Used
+## Tools Used
 - Python (yfinance, pandas)
 - Excel (macro-enabled for VBA refresh button)
 - Power BI Desktop
 - Windows Task Scheduler
 
-# Tracked Metrics
+## Tracked Metrics
 - Stock Price
 - Market Cap
 - PE Ratio / EPS
@@ -23,12 +23,12 @@ This project tracks live financial KPIs for UnitedHealth Group (UNH) using a ful
 - Sector / Industry
 - Employees
 
-# Dashboard Preview
+## Dashboard Preview
 <img width="898" height="419" alt="Screenshot 2025-08-04 155542" src="https://github.com/user-attachments/assets/bc784cc3-7640-49ea-8edb-68408a7f2ce0" />
 
 
 
-# How to Run
+## How to Run
 1. Clone this repo
 2. Run `live_kpi_tracker.py` manually or schedule with Windows Task Scheduler
 3. Open `uhg_kpi_tracker.xlsm` and click the **"Refresh Data"** button if needed
